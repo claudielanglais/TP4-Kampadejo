@@ -17,7 +17,7 @@
 /* Bouton du menu */
 .nav__control {
     background-color: transparent;
-    color: white;
+    color: var(--color-text);
     border: none;
     padding: 10px;
     min-width: 40px;
@@ -31,8 +31,8 @@
 
 .nav__control:hover,
 .nav__control:active {
-    color: white;
-    background-color: rgba(255, 255, 255, 0.25);
+    color: var(--color-text);
+    background-color: var(--color-G);
 }
 
 .nav__control:focus {
@@ -48,20 +48,25 @@
      * de modifier l'apparence du outline par défaut des navigateurs.
      */
     outline-offset: -5px;
-    outline: #dba70d auto 5px;
+    outline: var(--color-Y) auto 5px;
 }
 
 
 .nav__control:before {
     display: inline-block;
     content: "";
-    width: 1em;
+    width: 1.5em;
     height: 1em;
     /* compléter pour afficher l’icône X */
+    background-image: url(../images/ico-fermer.svg);
+    background-repeat: no-repeat;
+    background-size: 1em;
 }
 
 .nav--closed .nav__control:before {
     /* compléter pour afficher l’icône Hamburger */
+    background-image: url(../images/ico-menu.svg);
+    background-size: 1em;
 }
 
 /* Liste du menu */
@@ -92,21 +97,22 @@
 }
 
 .nav__link:hover {
-    color: #dba70d;
+    color: var(--color-Y);
 }
 
 .nav__link:active {
-    color: #dba70d;
+    color: var(--color-Y);
 }
 
 .nav__link:focus {
     outline: none;
-    border-right: #dba70d solid 5px;
+    border-right: var(--color-Y) solid 5px;
 }
 @media (min-width: 40rem) {
     .nav__link:focus {
         outline: none;
-        border-bottom: #dba70d solid 5px;
+        border: none;       
+        border-bottom: var(--color-Y) solid 5px;
     }
 }
 

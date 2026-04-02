@@ -28,7 +28,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Raleway:400,700,900');
 
 body{
-    font-family: Raleway, sans-serif ;
+    font-family: var(--font-family) ;
 }
 
 h1,
