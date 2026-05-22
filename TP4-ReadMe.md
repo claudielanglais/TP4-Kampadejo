@@ -1,6 +1,11 @@
 # Intégration II - TP4
 ## Grille d'auto-évaluation
-
+### Liens
+Lien du site: [https://claudielanglais.github.io/TP4-Kampadejo/](https://claudielanglais.github.io/TP4-Kampadejo/)
+### Capture d'écran
+![Menu Table](https://github.com/claudielanglais/TP4-Kampadejo/blob/main/assets/images/Capture%20d%E2%80%99%C3%A9cran_nav_grand_ecran.png)
+![Menu fermé mobile](https://github.com/claudielanglais/TP4-Kampadejo/blob/main/assets/images/Capture%20d%E2%80%99%C3%A9cran_nav_fermer_mobile.png)
+![Menu ouvert mobile](https://github.com/claudielanglais/TP4-Kampadejo/blob/main/assets/images/Capture%20d%E2%80%99%C3%A9cran_nav_ouvert_mobile.png)
 ### 1 - réflexion, analyse, préparation au travail
  __Schématiser l'intégration avec le système "grille.css"__
 #### (1 point) 
